@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item id="1">
+        <img>pictures/succulent5.png</img>
+        <name>one</name>
+        <cost>111111</cost>
+    </item>
+    <item id="2">
+        <img>pictures/succulent3.png</img>
+        <name>three</name>
+        <cost>333333</cost>
+    </item>
+    <item id="3">
+        <img>pictures/succulent1.png</img>
+        <name>5555</name>
+        <cost>5555</cost>
+    </item>
+    <item id="4">
+        <img>pictures/succulent5.png</img>
+        <name>5665</name>
+        <cost>5555</cost>
+    </item>
+</items>

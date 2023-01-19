@@ -1,0 +1,503 @@
+body {
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.head {
+    display: flex;
+    float: right;
+    width: 30%;
+    margin-top: 45px;  
+    margin-right: 95px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cart_loupe {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 1px;
+}
+
+#cart{
+    margin-left: 40px;
+}
+
+.signup, .signin {
+    margin-bottom: 1px;
+    width: 111px;
+    padding: 8px;
+    border: none;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.signup {
+    color: #156963;
+    background-color: white;
+}
+
+.signin {
+    color: white;
+    background-color: #156963;
+}
+
+@media screen and (max-width: 1000px) {
+  .section1, .head {   
+    width: 100%;
+    padding: 0;
+  }
+  .head {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}
+
+.pic1 {
+    width: 50%;
+    display: flex;
+    float: left;
+    background-color: white;
+}
+
+#picture1{
+    width: 100%;
+}
+
+.main_title {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 45px;
+    margin-left: 5%;
+}
+
+.title {
+    width: 90%;
+    color: #156963;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 83px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.title1 {
+    width: 90%;
+    color: #2C1500;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .pic1 {   
+    width: 100%;
+    padding: 0;
+    }
+  .main_title{
+    width: 95%;
+    margin-top: 0px;
+    }
+}
+
+.section2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.box_section {
+    margin-top: 100px;
+    width: 20%;
+    border: 1px solid #E0E0E0;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.box_section_title {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 40%;
+}
+
+
+.box_title {
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #156963;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16px;
+    margin-right: 10px;
+    width: 100%;
+    
+}
+
+.box {
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section2 {   
+        flex-wrap: wrap;
+    }
+    .box_section {
+        width: 45%;
+    }
+}
+
+.plants_title {
+    width: 100%;
+    margin-top: 80px;
+    border-bottom: 1px solid #E0E0E0;
+    
+
+}
+
+.featured_plants {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.succulents {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-around;
+    
+}
+
+.succulent {
+   background-color: #F3F4F6;
+   height: 217px;
+}
+
+.plants_section {
+    margin-top: 24px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+}
+
+.succulents_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name_of_plant {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;  
+}
+    
+.IDR {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .succulents {   
+        flex-wrap: wrap;
+    }
+    .plants_section{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .plants_section{
+        width: 50%;
+    }
+}
+
+.section4 {
+    display: flex;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 5%;
+  
+}
+
+.section4_left {
+    width: 50%;
+}
+
+.section4_text {  
+    width: 95%;
+    margin-left: 5%;
+}
+
+.s4_title {   
+    width: 100%;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 9px;
+}
+
+.s4_text {
+    width: 95%;
+    font-size: 16px;
+    line-height: 28px;  
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 70px;
+}
+
+.pic3 {
+    width: 40%;
+    margin-left: 10%;
+}
+
+#picture2{
+    width: 100%;
+}
+#picture3{
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    #picture3, .pic3 {
+        width: 0%;
+        margin-left: 0px;
+    }
+    .section4_left, .section4_text {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+.section5 {
+    background-color: #F3F4F6;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+
+.section5_text {
+    float: left;
+}
+
+
+.s5_title {
+    width: 85%;
+    color: #2C1500;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 88px;
+    margin-left: 15%;
+}
+
+
+.s5_button {
+    margin-top: 32px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    background-color: #156963;
+    color: #FAFEFE;
+    width: 152px;
+    padding: 10px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+}
+
+.pic4 {
+    float: right;
+    background-color: #F3F4F6;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#picture4 {
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .section5 {
+    flex-wrap: wrap;
+  }
+
+  .section5_text, .pic4 {  
+    width: 100%;
+  }
+
+  #picture4 {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+  .s5_title {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .s5_button {
+    margin-left: 10%;
+  }
+}
+
+footer {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    border-top: 1px solid #156963;
+}
+
+.footers {
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    margin-left: 13%;
+    margin-top: 60px;
+}
+
+.footer1 {
+    width: 30%;
+}
+
+.fooler_title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 5%;
+    color: #156963;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px;
+}
+
+.title2 {
+    font-style: medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;  
+    font-family: 'Work Sans', sans-serif;
+    color: #4F4F4F;
+    margin-top: 10px;
+}
+
+.footer2, .footer3 {
+    width: 10%;
+}
+
+#Perusahaan, #Produk {
+    margin-bottom: 20px;
+}
+
+.footer_text, .Masukan {
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+.footer_text {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.footer4 {
+    width: 25%;
+}
+
+#Masukan {
+    font-size: 12px;
+    width: 90%;
+    height: 32px;
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid #F2F2F2;
+    margin-top: 14px;
+}
+
+.submit {
+    width: 51px;
+    padding: 4px;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+    border-radius: 2px;
+    background: #156963;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    border: none;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer1, .footer4 {
+        width: 60%;
+        margin-right: 10%;
+    }
+
+    .footer2, .footer3 {
+        width: 20%;
+    }
+
+    .footer4 {
+        order: 1;
+        margin-top: 60px;
+    }
+
+    .footer2 {
+        order: 2;
+        margin-top: 60px;
+    }
+
+    .footers {
+        flex-wrap: wrap;
+    }
+}
